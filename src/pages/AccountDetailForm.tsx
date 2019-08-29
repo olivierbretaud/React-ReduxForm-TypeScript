@@ -4,7 +4,7 @@ import { Field , InjectedFormProps,  reduxForm } from 'redux-form';
 import { Col, Card, CardBody, Button, FormGroup } from 'reactstrap';
 import { FaChevronLeft, FaSpinner, FaRegSave } from 'react-icons/fa';
 
-import FormInput from './../components/FormInput';
+import FormInput from '../components/FormInput';
 import validate from './validate';
 import { accountNumber, name } from '../../lib/normalize';
 
